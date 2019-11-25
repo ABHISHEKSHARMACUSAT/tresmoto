@@ -1,0 +1,473 @@
+{
+  "type": "Fashion",
+  "imageUrl": "image url",
+  "description": "Fashion Category",
+  "subCategories": [
+    {
+      "type": "Men",
+      "imageUrl": "image url",
+      "description": "Men sub Category",
+      "subCategories": [
+        {
+          "type": "Clothing",
+          "imageUrl": "image url",
+          "description": "Clothing sub Category",
+          "subCategories": [
+            {
+              "type": "Jeans",
+              "imageUrl": "image url",
+              "description": "Jeans sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Shirts",
+              "imageUrl": "image url",
+              "description": "Shirts sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Trousers",
+              "imageUrl": "image url",
+              "description": "Trousers sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Ethnic Wear",
+              "imageUrl": "image url",
+              "description": "Ethnic Wear Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Jackets",
+              "imageUrl": "image url",
+              "description": "Jackets sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sweaters",
+              "imageUrl": "image url",
+              "description": "Sweaters sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sweat Shirts",
+              "imageUrl": "image url",
+              "description": "Sweat Shirts sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sports Wear",
+              "imageUrl": "image url",
+              "description": "Sports Wear sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Shorts",
+              "imageUrl": "image url",
+              "description": "Shorts sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Inner Wear",
+              "imageUrl": "image url",
+              "description": "Inner Wear sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "More",
+              "imageUrl": "image url",
+              "description": "More sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Explore",
+              "imageUrl": "image url",
+              "description": "Trending Now",
+              "endOfHierarchy": true
+            }
+          ]
+        },
+        {
+          "type": "Footwear",
+          "imageUrl": "image url",
+          "description": "Footwear sub Category",
+          "subCategories": [
+            {
+              "type": "Casual Shoes",
+              "imageUrl": "image url",
+              "description": "Casual Shoes sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sport Shoes",
+              "imageUrl": "image url",
+              "description": "Sport Shoes sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Formal Shoes",
+              "imageUrl": "image url",
+              "description": "Formal Shoes sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sandals & Slippers",
+              "imageUrl": "image url",
+              "description": "Sandals & Slippers Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Shoe Care",
+              "imageUrl": "image url",
+              "description": "Shoe Care sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Mojaris",
+              "imageUrl": "image url",
+              "description": "Mojaris sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Explore",
+              "imageUrl": "image url",
+              "description": "Trending Now",
+              "endOfHierarchy": true
+            }
+          ]
+        },
+        {
+          "type": "Accessories",
+          "imageUrl": "image url",
+          "description": "Accessories sub Category",
+          "subCategories": [
+            {
+              "type": "Watches",
+              "imageUrl": "image url",
+              "description": "Watches sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sunglasses",
+              "imageUrl": "image url",
+              "description": "Sunglasses sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Belt & Wallets",
+              "imageUrl": "image url",
+              "description": "Belt & Wallets sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Explore",
+              "imageUrl": "image url",
+              "description": "Trending Now",
+              "endOfHierarchy": true
+            }
+          ]
+        },
+        {
+          "type": "Luggage",
+          "imageUrl": "image url",
+          "description": "Luggage sub Category",
+          "endOfHierarchy": true
+        },
+        {
+          "type": "Explore",
+          "imageUrl": "image url",
+          "description": "Trending Now",
+          "endOfHierarchy": true
+        }
+      ]
+    },
+    {
+      "type": "Women",
+      "imageUrl": "image url",
+      "description": "Women sub Category",
+      "subCategories": [
+        {
+          "type": "Ethnic Wear",
+          "imageUrl": "image url",
+          "description": "Ethnic Wear sub Category",
+          "subCategories": [
+            {
+              "type": "Long Kurtis",
+              "imageUrl": "image url",
+              "description": "Long Kurtis sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Palazzo & Kurta Set",
+              "imageUrl": "image url",
+              "description": "Palazzo & Kurta Set sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Anarkali Kurtas",
+              "imageUrl": "image url",
+              "description": "Anarkali Kurtas sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Silk Sarees",
+              "imageUrl": "image url",
+              "description": "Silk Sarees sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Party Wear Growns",
+              "imageUrl": "image url",
+              "description": "Party Wear Growns sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Cotton Kurtis",
+              "imageUrl": "image url",
+              "description": "Cotton Kurtis sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Designer Sarees",
+              "imageUrl": "image url",
+              "description": "Designer Sarees sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Salwar Suits",
+              "imageUrl": "image url",
+              "description": "Salwar Suits sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Kurta & Skirt Sets",
+              "imageUrl": "image url",
+              "description": "Kurta & Skirt Sets sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Explore",
+              "imageUrl": "image url",
+              "description": "Trending Now",
+              "endOfHierarchy": true
+            }
+          ]
+        },
+        {
+          "type": "Western Wear",
+          "imageUrl": "image url",
+          "description": "Western Wear sub Category",
+          "subCategories": [
+            {
+              "type": "Top & T-shirts",
+              "imageUrl": "image url",
+              "description": "Top & T-shirts sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Dresses",
+              "imageUrl": "image url",
+              "description": "Dresses sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Denims & Trousers",
+              "imageUrl": "image url",
+              "description": "Denims & Trousers sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Winter Wear",
+              "imageUrl": "image url",
+              "description": "Winter Wear sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sports Wear",
+              "imageUrl": "image url",
+              "description": "Sports Wear sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Lingerie",
+              "imageUrl": "image url",
+              "description": "Lingerie sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sleep Wear",
+              "imageUrl": "image url",
+              "description": "Sleep Wear sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Explore",
+              "imageUrl": "image url",
+              "description": "Explore sub Category",
+              "endOfHierarchy": true
+            }
+          ]
+        },
+        {
+          "type": "Accessories",
+          "imageUrl": "image url",
+          "description": "Accessories sub Category",
+          "subCategories": [
+            {
+              "type": "Watches",
+              "imageUrl": "image url",
+              "description": "Watches sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Sunglasses",
+              "imageUrl": "image url",
+              "description": "Sunglasses sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Belt & Wallets",
+              "imageUrl": "image url",
+              "description": "Belt & Wallets sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Hanbags",
+              "imageUrl": "image url",
+              "description": "Hanbags sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Fashion Jewellery",
+              "imageUrl": "image url",
+              "description": "Fashion Jewellery sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Precious Jewellery",
+              "imageUrl": "image url",
+              "description": "Precious Jewellery sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Stoles",
+              "imageUrl": "image url",
+              "description": "Stoles sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Explore",
+              "imageUrl": "image url",
+              "description": "Trending Now",
+              "endOfHierarchy": true
+            }
+          ]
+        },
+        {
+          "type": "Footwear",
+          "imageUrl": "image url",
+          "description": "Luggage sub Category",
+          "subCategories": [
+            {
+              "type": "Block Heels",
+              "imageUrl": "image url",
+              "description": "Block Heels sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Jutis & Mojaris",
+              "imageUrl": "image url",
+              "description": "Jutis & Mojaris sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Formal Shoes",
+              "imageUrl": "image url",
+              "description": "Formal Shoes sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Casual Shoes",
+              "imageUrl": "image url",
+              "description": "Casual Shoes sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Shoes",
+              "imageUrl": "image url",
+              "description": "Shoes sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Party Wear Sandals",
+              "imageUrl": "image url",
+              "description": "Party Wear Sandals sub Category",
+              "endOfHierarchy": true
+            },
+            {
+              "type": "Explore",
+              "imageUrl": "image url",
+              "description": "Trending Now",
+              "endOfHierarchy": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Kids",
+      "imageUrl": "image url",
+      "description": "Kids sub Category",
+      "subCategories": [
+        {
+          "type": "Boys 0-3 Years",
+          "imageUrl": "image url",
+          "description": "Boys 0-3 Years sub Category",
+          "endOfHierarchy": true
+        },
+        {
+          "type": "Boys 3-8 Years",
+          "imageUrl": "image url",
+          "description": "Boys 3-8 Years sub Category",
+          "endOfHierarchy": true
+        },
+        {
+          "type": "Boys 9+ Years",
+          "imageUrl": "image url",
+          "description": "Boys 9+ Years sub Category",
+          "endOfHierarchy": true
+        },
+        {
+          "type": "Girls 0-3 Years",
+          "imageUrl": "image url",
+          "description": "Girls 0-3 Years sub Category",
+          "endOfHierarchy": true
+        },
+        {
+          "type": "Girls 3-8 Years",
+          "imageUrl": "image url",
+          "description": "Girls 3-8 Years sub Category",
+          "endOfHierarchy": true
+        },
+        {
+          "type": "Girls 9+ Years",
+          "imageUrl": "image url",
+          "description": "Girls 9+ Years sub Category",
+          "endOfHierarchy": true
+        },
+        {
+          "type": "Explore",
+          "imageUrl": "image url",
+          "description": "Trending Now",
+          "endOfHierarchy": true
+        }
+      ]
+    },
+    {
+      "type": "Explore",
+      "imageUrl": "image url",
+      "description": "Trending Now",
+      "endOfHierarchy": true
+    }
+  ]
+}

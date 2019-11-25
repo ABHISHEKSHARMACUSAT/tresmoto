@@ -1,0 +1,62 @@
+[
+  {
+    "type": "Fashion",
+    "description": "50 % Off Casual Shoes ",
+    "merchantIds": "shop_f7972d43-06f7-11ea-9aff-43578684b9e6",
+    "category": "Shoes",
+    "subCategory": "NA",
+    "city": "DSR",
+    "status": "ACTIVE",
+    "startTime": "2019-11-11T00:00:00Z",
+    "endTime": "2019-11-20T00:00:00Z",
+    "imageUrl": "icon ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.687485,
+        12.910187
+      ]
+    }
+  },
+  {
+    "type": "Fashion",
+    "description": "50 % Off Casual Shoes ",
+    "merchantIds": [
+      "shop_f7972d43-06f7-11ea-9aff-43578684b9e6",
+      "shop_f0bd06c2-06f7-11ea-9aff-e7b92cffc8bf"
+    ],
+    "category": "Shoes",
+    "subCategory": "NA",
+    "status": "PENDING",
+    "city": "AVANA",
+    "startTime": "2019-11-11T00:00:00Z",
+    "endTime": "2019-11-20T00:00:00Z",
+    "imageUrl": "icon ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.663967,
+        12.921290
+      ]
+    }
+  },
+  {
+    "type": "Fashion",
+    "description": "50 % Off Shirts",
+    "merchantIds": "shop_f0bd06c2-06f7-11ea-9aff-e7b92cffc8bf",
+    "category": "Shoes",
+    "subCategory": "NA",
+    "status": "ACTIVE",
+    "city": "FLIPKART",
+    " location": {
+      "type": "Point",
+      "coordinates": [
+        77.691716,
+        12.926938
+      ]
+    },
+    "startTime": "2020-11-11T00:00:00Z",
+    "endTime": "2021-11-20T00:00:00Z",
+    "imageUrl": "icon "
+  }
+]

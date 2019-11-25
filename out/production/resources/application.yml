@@ -1,0 +1,65 @@
+spring:
+
+  #  datasource:
+  #    url: jdbc:mysql://localhost:3306/tresshop
+  #    username: root
+  #    password: abhi@Nov11
+  #    driver-class-name: com.mysql.cj.jdbc.Driver
+  #    hikari:
+  #      maximum-pool-size: 10
+  #      connection-timeout: 20000
+  #      minimum-idle: 5
+  #      idle-timeout: 300000
+  #      max-lifetime: 1200000
+  #      auto-commit: true
+
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: tres-shop
+  jpa:
+    #    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+#    show-sql: false
+#    open-in-view: false
+
+offer:
+  search:
+    radius:
+      near:
+        in-km: 5
+      city:
+        in-km: 30
+
+product:
+  pagination-result:
+    page-number: 0
+    channel:
+      web:
+        page-size: 10
+      other:
+        page-size: 5
+
+
+merchant:
+  pagination-result:
+    page-number: 0
+    channel:
+      web:
+        page-size: 10
+      other:
+        page-size: 5
+    sort-by: averageRating
+  search:
+    radius:
+      near:
+        in-km: 5
+      city:
+        in-km: 30
+  parent-folder-path: /Users/abhishek22.kumar/Desktop/CATALOG

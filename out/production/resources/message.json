@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Offer",
+    "description": "View All Offers",
+    "city": "DSR",
+    "status": "ACTIVE",
+    "startTime": "2019-11-11T00:00:00Z",
+    "endTime": "2019-11-20T00:00:00Z",
+    "imageUrl": "icon "
+
+  },
+  {
+    "type": "Offer",
+    "description": "Offers Near You",
+    "city": "DSR",
+    "status": "ACTIVE",
+    "startTime": "2019-11-11T00:00:00Z",
+    "endTime": "2019-11-20T00:00:00Z",
+    "imageUrl": "icon "
+
+  }
+,
+  {
+    "type": "Offer",
+    "description": "Explore City",
+    "city": "DSR",
+    "status": "ACTIVE",
+    "startTime": "2019-11-11T00:00:00Z",
+    "endTime": "2019-11-20T00:00:00Z",
+    "imageUrl": "icon "
+
+  }
+]

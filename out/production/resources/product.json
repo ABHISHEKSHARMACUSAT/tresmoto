@@ -1,0 +1,41 @@
+{
+  "id": "1234",
+  "description": "product description",
+  "offers": [
+    {
+      "type": "offer on   product",
+      "description": "offer on   product",
+      "startTime": 123,
+      "endTime": 456
+    }
+  ],
+  "price": {
+    "priceType": "ORIGINAL",
+    "originalPrice": 10.23,
+    "salePrice": {
+      "price": 10.45,
+      "startTime": 123,
+      "endTime": 456,
+      "description": "product info"
+    }
+  },
+  "colors": [
+    "RED",
+    "BLACK"
+  ],
+  "sizes": [
+    "SMALL",
+    "LARGE"
+  ],
+  "dimension": {
+    "width": "NA",
+    "height": "NA",
+    "length": "NA"
+  },
+  "productImageUrl": {
+    "imageUrls": [
+      "p1",
+      "p2"
+    ]
+  }
+}
