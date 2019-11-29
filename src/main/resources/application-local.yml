@@ -1,0 +1,70 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tresmoto
+    username: root
+    password: abhi@Nov11
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 20000
+      minimum-idle: 5
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      auto-commit: true
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: false
+    open-in-view: false
+
+server:
+  port: 9090
+  servlet:
+    contextPath: /tresmoto/api/v1
+  http2:
+    enabled: true
+  tomcat:
+    max-threads: 200
+
+
+rest:
+  url:
+    paytm:
+      mid: OAJI1168155660467601
+      web-site: WEBSTAGING
+      app-site: WEBSTAGING
+      industry-type: Retail
+      m-key: rd!xZC0grzGSBaTG
+      template-name: paytm
+      transaction: https://securegw-stage.paytm.in/theia/processTransaction
+      callback: https://payment-uat.services.ajio.com/payment-engine/api/v1/b2b-callback/paytm/
+      transaction-status: https://securegw-stage.paytm.in/order/status
+      refund-against-payment: https://securegw-stage.paytm.in/refund/api/v1/async/refund
+      connection-timeout: 35000
+      read-timeout: 35000
+      refund:
+        client-id: C11
+        version: v1
+
+    razorpay:
+      create-order: https://prod-api-static.razorpay.com/v1/orders
+      validate-authentication-type: https://prod-api-static.razorpay.com/v1/payment/flows
+      make-payment: https://prod-api-static.razorpay.com/v1/payments/create/redirect/
+      resend-otp: https://prod-api-static.razorpay.com/v1/payments/{razorpay-payment-id}/otp/resend
+      submit-otp-s2s: https://prod-api-static.razorpay.com/v1/payments/{razorpay-payment-id}/otp/submit
+      make-payment-upi-s2s: https://prod-api-static.razorpay.com/v1/payments/create/upi
+      enquire-against-order: https://prod-api-static.razorpay.com/v1/orders/{order-id}/payments
+      refund-against-payment:  https://prod-api-static.razorpay.com/v1/payments/{razorpay-payment-id}/refund
+      card-details-for-payment: https://prod-api-static.razorpay.com/v1/payments/{razorpay-payment-id}/card
+      s2s-sla: 300000
+      connection-timeout: 10000
+      read-timeout: 10000
+      callback:
+        b2b: https://payment-uat.services.ajio.com/payment-engine/api/v1/b2b-callback/razorpay/b2b/{order-id}
+      username: rzp_test_VObgjVOxpz7LLx
+      password: UoqQfVQopcWGsQaIuTdOuhQi
