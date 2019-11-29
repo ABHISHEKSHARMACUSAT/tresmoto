@@ -17,11 +17,11 @@ public class PaymentGatewayServiceFactoryImpl implements PaymentGatewayServiceFa
 
     @Autowired
     @Qualifier("payTmServiceImpl")
-    private PayTmServiceImpl payTmServiceImpl;
+    private paymentGatewayService payTmServiceImpl;
 
     @Autowired
     @Qualifier("razorPayServiceImpl")
-    private RazorPayServiceImpl razorPayServiceImpl;
+    private paymentGatewayService razorPayServiceImpl;
 
     @Override
     public paymentGatewayService getPaymentGatewayService(PaymentGatewayType paymentGatewayType) {

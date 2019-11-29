@@ -1,0 +1,25 @@
+package com.tresmoto.constants;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public enum  PayTmConstants {
+
+    MID("MID"), ORDER_ID("ORDERID"), CHANNEL_ID("CHANNELID"), CUST_ID("CUSTID"),
+    MOBILE_NO("MOBILENO"), EMAIL("EMAIL"), TXN_AMOUNT("TXNAMOUNT"), TXN_ID("TXNID"),
+    WEBSITE("WEBSITE"), INDUSTRY_TYPE_ID("INDUSTRYTYPEID"), CALLBACK_URL("CALLBACKURL"),
+    MERCHANT_ID("MERCHANTID"), MERCHANT_KEY("MERCHANTKEY"), WEBSTAGING("WEBSTAGING"),
+    INDUSTRY_TYPE("INDUSTRYTYPE"), CHECKSUMHASH("CHECKSUMHASH"), TRANSACTION_URL("TRANSACTIONURL"),
+    TXN_SUCCESS("TXN_SUCCESS"), TXN_FAILURE("TXN_FAILURE"), PENDING("PENDING"), STATUS("STATUS"),
+    WAP("WAP"), RESP_MSG("RESPMSG"), CHECKSUM_FAILURE("CHECK SUM FAILURE"),
+    TXN_DATE("TXNDATE"), DATE_TIME_FORMAT("yyyy-MM-dd HH:mm:ss.S"),VALIDATE_CHECK_SUM("validate check sum failure"),
+    BODY("body"),HEAD("head"),TEN("10"),REFUND_SUCCESS("629"),CONTENT_TYPE("Content-Type"),
+    REFUND_ALREADY_RAISED("617"), TXN_TYPE("txnType"), REF_ORDER_ID("orderId"), REF_TXN_ID("txnId"),
+    REF_REFERENCE_ID("refId"), REFUND_AMOUNT("refundAmount"), VERSION("version"), SIGNATURE("signature"),
+    CLIENT_ID("clientId");
+    private String value;
+
+}

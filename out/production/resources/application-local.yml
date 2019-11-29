@@ -35,7 +35,7 @@ server:
 rest:
   url:
     paytm:
-      mid: 168155660467601
+      mid: OAJI1168155660467601
       web-site: WEBSTAGING
       app-site: WEBSTAGING
       industry-type: Retail

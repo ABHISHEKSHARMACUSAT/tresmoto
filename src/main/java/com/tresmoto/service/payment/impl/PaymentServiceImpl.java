@@ -20,12 +20,9 @@ public class PaymentServiceImpl implements PaymentService {
     @Autowired
     private PaymentGatewayServiceFactory paymentGatewayServiceFactory;
 
-
     @Autowired
     private PaymentTransactionServiceImpl paymentTransactionService;
 
-    @Autowired
-    private paymentGatewayService paymentGatewayService;
 
     public ResponseEntity makePayment(PaymentRequest paymentRequest) {
         PaymentGatewayType paymentGatewayType = paymentGatewayRouterFactory.getPaymentGateway(paymentRequest);
